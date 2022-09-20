@@ -12,7 +12,6 @@ import 'package:bus/view/widgets/empty_widget.dart';
 import 'package:bus/view/widgets/menu_bar_widget.dart';
 import 'package:bus/view/widgets/trips_card.dart';
 import 'package:bus/view_model/view_all_travels_view_model.dart';
-import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';

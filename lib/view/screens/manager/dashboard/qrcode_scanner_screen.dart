@@ -1,12 +1,9 @@
-import 'dart:io';
-
 import 'package:barcode_scan2/barcode_scan2.dart';
 import 'package:bus/view_model/qrcode_scanner_view_model.dart';
 import 'package:cool_alert/cool_alert.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_barcode_scanner/flutter_barcode_scanner.dart';
 import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_sizer/flutter_sizer.dart';
