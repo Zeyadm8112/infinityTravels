@@ -123,7 +123,7 @@ provider.state=ScanState.intial;
             ),
             Padding(
               padding:  EdgeInsets.all(0.5.w),
-              child: FlatButton(
+              child: ElevatedButton(
                 // padding: EdgeInsets.all(15.0),
                 onPressed: () async {
                   //  BarcodeScanner.scan();
@@ -150,9 +150,9 @@ provider.checkTraveler(qrCodeResult, travelId, goBool);
                   style:
                       TextStyle(color: Colors.blue, fontWeight: FontWeight.bold),
                 ),
-                shape: RoundedRectangleBorder(
-                    side: BorderSide(color: Colors.blue, width: 3.0),
-                    borderRadius: BorderRadius.circular(20.0)),
+                // shape: RoundedRectangleBorder(
+                //     side: BorderSide(color: Colors.blue, width: 3.0),
+                //     borderRadius: BorderRadius.circular(20.0)),
               ),
             )
           ],
