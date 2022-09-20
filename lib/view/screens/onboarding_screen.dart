@@ -1,4 +1,3 @@
-import 'package:animated_onboarding_ns/animated_onboarding_ns.dart';
 import 'package:bus/view/screens/first_onboard_screen.dart';
 import 'package:bus/view/screens/second_onboard_screen.dart';
 import 'package:bus/view/screens/third_onboard_Screen.dart';
@@ -7,13 +6,11 @@ import 'package:flutter/src/foundation/key.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter_sizer/flutter_sizer.dart';
 import 'package:lottie/lottie.dart';
-import 'package:onboarding_animation/onboarding_animation.dart';
 import 'package:provider/provider.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 import '../../consts/app_colors.dart';
 import '../../view_model/onboarding_view_model.dart';
-import 'login_screen.dart';
 
 class OnBoardingScreen extends StatelessWidget {
   OnBoardingScreen({Key? key}) : super(key: key);
